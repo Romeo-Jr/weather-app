@@ -1,8 +1,10 @@
 // ignore_for_file: no_leading_underscores_for_local_identifiers
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:weather_app/widgets/home/header_widget.dart';
 import 'package:weather_app/core/fetch_data.dart';
+import 'package:weather_app/models/weather_models.dart';
 
 
 class HomeScreen extends StatefulWidget {
@@ -86,9 +88,21 @@ class _HomeScreenState extends State<HomeScreen> {
                   windSpeed: snapshot.data?.current.windKph.toString() ?? "No Data",
                   );
               } else if (snapshot.hasError) {
-                return Text('${snapshot.error}');
+                return Center(
+                  child: Text(
+                    '${snapshot.error}', 
+                    style: GoogleFonts.inter(
+                      color: Colors.red[600],
+                      fontSize: 18.0,
+                      )
+                    ),
+                  );
               }
-              return const CircularProgressIndicator();
+              return const Center(
+                child: CircularProgressIndicator(
+                  backgroundColor: Colors.white,
+                )
+              );
             },
           )
 
