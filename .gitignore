@@ -39,6 +39,8 @@ migrate_working_dir/
 /macos/
 /windows/
 
+analysis_options.yaml
+
 # Symbolication related
 app.*.symbols
 
