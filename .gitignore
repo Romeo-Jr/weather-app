@@ -31,13 +31,13 @@ migrate_working_dir/
 .pub/
 /build/
 
-android/
-ios/
-linux/
-test/
-web/
-macos/
-windows/
+/android/
+/ios/
+/linux/
+/test/
+/web/
+/macos/
+/windows/
 
 # Symbolication related
 app.*.symbols
