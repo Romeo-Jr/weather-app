@@ -1,4 +1,7 @@
-# Forest Fox
+# SDG 13
+- CLIMATE ACTION
+
+# App Title: Forest Fox
 
 A mobile weather app written in flutter with https://www.weatherapi.com/ API.
 
@@ -11,6 +14,9 @@ A mobile weather app written in flutter with https://www.weatherapi.com/ API.
 
 ## VIDEO
 - https://drive.google.com/file/d/1BPw_DeXez5PF7wZvOvjHA9HdVp4Q9qqG/view
+
+## FIGMA LINK
+- figma link
 
 ## MEMBERS:
 - Ilao, Andrei Emmanuel
